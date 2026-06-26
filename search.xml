@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Pwntools Tutorials Badge</title>
-    <url>/hamman-tech/Pwn.College/Badges/Pwntools_Tutorials/</url>
-    <content><![CDATA[<h1 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h1><p>I originally wanted to work through the pwntools tutorials badge just because I didn’t really know a whole lot about pwntools scripting. I’m still working my way through white belt material, so I just thought that learning pwntools would be pretty useful.</p>
-<h1 id="Thoughts"><a href="#Thoughts" class="headerlink" title="Thoughts"></a>Thoughts</h1><p>It is a really nice couple of challenges that taught a lot of the basics. I wasn’t expecting anything too hard since I was already semi-comfortable with the very very basics of using the pwntools library. It was really just a way for me to refresh my memory on it. </p>
-<p>I also didn’t use AI through it all because what’s the point. I do admit that sometimes, I use AI to answer basic questions during other CTF competitions, but my whole approach to learning cybersecurity is to just minimize the AI use when I’m still learning hte fundementals. </p>
-<h1 id="Some-resources"><a href="#Some-resources" class="headerlink" title="Some resources"></a>Some resources</h1><p>Here’s the documentation for pwntools: <a href="https://docs.pwntools.com/en/latest/">Pwntools Docs</a></p>
-<p>Here’s the badge lab page on pwn.college: <a href="https://pwn.college/pwntools~9b09c9dc/">Pwntools Tutorials Badge</a></p>
-<p>And of course, here’s a screenshot of the badge: </p>
-<p><img src="/hamman-tech/images/pwntoolsbadge.png"></p>
+    <title>Little Update</title>
+    <url>/hamman-tech/Projects/HobbyOS/Little_Update/</url>
+    <content><![CDATA[<h1 id="CHANGE-OF-PLANS-Split-in-plans"><a href="#CHANGE-OF-PLANS-Split-in-plans" class="headerlink" title="CHANGE OF PLANS &#x2F; Split in plans?"></a>CHANGE OF PLANS &#x2F; Split in plans?</h1><p>Ok so there is a slight change of plans and I’m going to turn the project into kernel dev. Basically, I tried out LFS for a bit and followed the things and yeah I did learn a bit and I think I followed it almost all the way, but I just think that this isn’t actually all that beneficial and that a lot of the things I already learned when manually installing arch or gentoo or something. </p>
+<p>And so I thought that hmmmmmmm, it would be way more beneficial for me, especially since I have an interest in pwn, that it would actually be better if I just tried to make my own kernel inside a VM or something.</p>
+<p>So the plan for right now is to learn more C (because I already know the basics of C++) and maybe build a little project to solidify my understanding. And then, I’ll try to tackle some kernel modules first. There will DEFINITELY be more updates on it. </p>
+<p>I think I’ll still follow through with the LFS build and so I’ll complete it pretty quickly and get a basic sway setup going. And then, I’ll continue to learn C and make that its seperate project and idea thing.</p>
+<h2 id="homework"><a href="#homework" class="headerlink" title="homework"></a>homework</h2><p>So the homework now is just to complete the LFS pretty quickly and turn it into an iso and just quickly finish it so that I can focus on the bigger project. Also, for my little project to learn C, I’m making a local password manager completely in C!</p>
 ]]></content>
       <categories>
-        <category>Pwn.College</category>
-        <category>Badges</category>
+        <category>Projects</category>
       </categories>
       <tags>
-        <tag>pwncollege</tag>
-        <tag>badges</tag>
-        <tag>learning</tag>
-        <tag>thoughts</tag>
+        <tag>linux</tag>
+        <tag>project</tag>
+        <tag>planning</tag>
+        <tag>distro</tag>
+        <tag>HobbyOS</tag>
       </tags>
   </entry>
   <entry>
@@ -45,23 +43,64 @@
       </tags>
   </entry>
   <entry>
-    <title>Post Competition Thoughts</title>
-    <url>/hamman-tech/Competitions/CTF/KalmarCTF/Post_Competition_Thoughts/</url>
-    <content><![CDATA[<h1 id="Hmmmmmmm…"><a href="#Hmmmmmmm…" class="headerlink" title="Hmmmmmmm…."></a>Hmmmmmmm….</h1><p>Ok so I’m actually writing this a couple of months after the competition and all I can say is that I didn’t walk into the competition very confident and I finished learning stuff.</p>
-<p>I knew that KalmarCTF was going to be extremely hard and this is the competition I decided to do right after PicoCTF(which is a high school competition). I pretty much <em>only</em> joined to experience something extremely hard. Safe to say I absolutely experienced that. </p>
-<p>I was also traveling abroad and didn’t have a lot of time to focus on the competition, so that’s another lousy excuse for you.</p>
-<p>Point is, I learned some things about CPU flags and some specific registers that I didn’t previously know. Also, seeing the AstralOS also made me realize that hobby operating systems were possible. Nothing happened in this one, but I’ll still keep it around in this blog just to reminisce at and maybe eventually I’ll be good enough to actually get a placement in this CTF competition.</p>
+    <title>Actual Plan</title>
+    <url>/hamman-tech/Projects/HobbyOS/Actual_Plan/</url>
+    <content><![CDATA[<h1 id="Meaning"><a href="#Meaning" class="headerlink" title="Meaning"></a>Meaning</h1><p>This post is supposed to be the actual planning webpage. I will be updating this page and maybe adding more details I realized needed more time or whatever. I’ll split it into phases so that the stuff is clear. I won’t predict how long I’ll finish but I will write down when I start that phase and when I end up finishing.</p>
+<h1 id="Phase-1-Reading-Initial-Setup"><a href="#Phase-1-Reading-Initial-Setup" class="headerlink" title="Phase 1 - Reading &amp; Initial Setup"></a>Phase 1 - Reading &amp; Initial Setup</h1><h2 id="Plan-Update"><a href="#Plan-Update" class="headerlink" title="Plan Update:"></a>Plan Update:</h2><p>2026-05-25: This phase is just reading the LFS guide and getting a good idea. This phase will be pretty slow and it’s just to give me an idea of how things will be like. I also can’t do too much because my school’s finals are approaching so I gotta LOCK IN on those. I’ll just be reading the guides on the bus or something (Lies, I’ll be sleeping on the bus). </p>
+<h2 id="Complete"><a href="#Complete" class="headerlink" title="Complete:"></a>Complete:</h2><ol>
+<li>Finish reading the LFS guide.</li>
+<li>Look over relevent areas of BLFS (way too long and a lot of it is KDE or GNOME).</li>
+<li>Ask around the discord and other communities for common issues</li>
+<li>Finish eSSD partition setup and get environment ready.</li>
+</ol>
+<h1 id="Phase-2-Simple-Linux-CLI-Setup-Sysvinit"><a href="#Phase-2-Simple-Linux-CLI-Setup-Sysvinit" class="headerlink" title="Phase 2 - Simple Linux CLI Setup (Sysvinit)"></a>Phase 2 - Simple Linux CLI Setup (Sysvinit)</h1><p>2026-05-25: In this phase, I’ll just be following the LFS and complete my build of a very minimal linux setup. This setup will be using Sysvinit although in later phases, we will change that over to OpenRC. I’ll add more content to this once I start with the date stamp.</p>
+<h2 id="Complete-1"><a href="#Complete-1" class="headerlink" title="Complete:"></a>Complete:</h2><ol>
+<li>Use the LFS guide to configure simple CLI Linux base setup.</li>
+</ol>
+<h1 id="Phase-3-Simple-BLFS"><a href="#Phase-3-Simple-BLFS" class="headerlink" title="Phase 3 - Simple BLFS"></a>Phase 3 - Simple BLFS</h1><p>2026-05-25: So in this one we just add a couple base apps along with SwayWM. Again, I really don’t have a good idea of what I’ll be doing in this step so yeah… I’ll be adding to this section though. </p>
+<h2 id="Complete-2"><a href="#Complete-2" class="headerlink" title="Complete:"></a>Complete:</h2><ol>
+<li>Make Simple GUI</li>
+<li>Simple tools (i.e. gef, nvim, ghidra)</li>
+</ol>
+<h1 id="Phase-4-RICE-FIELDS"><a href="#Phase-4-RICE-FIELDS" class="headerlink" title="Phase 4 - RICE FIELDS"></a>Phase 4 - RICE FIELDS</h1><p>2026-05-25: In this step, I’ll be making it look all pretty and stuff. A lot of the configs are already in my other setups so I’ll just copy it over and maybe using CSS to do some custom stuff. I’ll try not to go overboard. This is supposed to be a simple distro.</p>
+<h2 id="Complete-3"><a href="#Complete-3" class="headerlink" title="Complete:"></a>Complete:</h2><ol>
+<li>Riced applications and desktop environment</li>
+<li>Custom keybinds</li>
+</ol>
 ]]></content>
       <categories>
-        <category>Competitions</category>
-        <category>CTF</category>
-        <category>KalmarCTF</category>
+        <category>Projects</category>
+        <category>HobbyOS</category>
       </categories>
       <tags>
+        <tag>linux</tag>
+        <tag>lfs</tag>
+        <tag>project</tag>
+        <tag>hobbyos</tag>
+        <tag>planning</tag>
+        <tag>distro</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pwntools Tutorials Badge</title>
+    <url>/hamman-tech/Pwn.College/Badges/Pwntools_Tutorials/</url>
+    <content><![CDATA[<h1 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h1><p>I originally wanted to work through the pwntools tutorials badge just because I didn’t really know a whole lot about pwntools scripting. I’m still working my way through white belt material, so I just thought that learning pwntools would be pretty useful.</p>
+<h1 id="Thoughts"><a href="#Thoughts" class="headerlink" title="Thoughts"></a>Thoughts</h1><p>It is a really nice couple of challenges that taught a lot of the basics. I wasn’t expecting anything too hard since I was already semi-comfortable with the very very basics of using the pwntools library. It was really just a way for me to refresh my memory on it. </p>
+<p>I also didn’t use AI through it all because what’s the point. I do admit that sometimes, I use AI to answer basic questions during other CTF competitions, but my whole approach to learning cybersecurity is to just minimize the AI use when I’m still learning hte fundementals. </p>
+<h1 id="Some-resources"><a href="#Some-resources" class="headerlink" title="Some resources"></a>Some resources</h1><p>Here’s the documentation for pwntools: <a href="https://docs.pwntools.com/en/latest/">Pwntools Docs</a></p>
+<p>Here’s the badge lab page on pwn.college: <a href="https://pwn.college/pwntools~9b09c9dc/">Pwntools Tutorials Badge</a></p>
+<p>And of course, here’s a screenshot of the badge: </p>
+<p><img src="/hamman-tech/images/pwntoolsbadge.png"></p>
+]]></content>
+      <categories>
+        <category>Pwn.College</category>
+        <category>Badges</category>
+      </categories>
+      <tags>
+        <tag>pwncollege</tag>
+        <tag>badges</tag>
+        <tag>learning</tag>
         <tag>thoughts</tag>
-        <tag>competition</tag>
-        <tag>ctf</tag>
-        <tag>kalmarctf</tag>
       </tags>
   </entry>
   <entry>
@@ -114,42 +153,37 @@
       </tags>
   </entry>
   <entry>
-    <title>Actual Plan</title>
-    <url>/hamman-tech/Projects/HobbyOS/Actual_Plan/</url>
-    <content><![CDATA[<h1 id="Meaning"><a href="#Meaning" class="headerlink" title="Meaning"></a>Meaning</h1><p>This post is supposed to be the actual planning webpage. I will be updating this page and maybe adding more details I realized needed more time or whatever. I’ll split it into phases so that the stuff is clear. I won’t predict how long I’ll finish but I will write down when I start that phase and when I end up finishing.</p>
-<h1 id="Phase-1-Reading-Initial-Setup"><a href="#Phase-1-Reading-Initial-Setup" class="headerlink" title="Phase 1 - Reading &amp; Initial Setup"></a>Phase 1 - Reading &amp; Initial Setup</h1><h2 id="Plan-Update"><a href="#Plan-Update" class="headerlink" title="Plan Update:"></a>Plan Update:</h2><p>2026-05-25: This phase is just reading the LFS guide and getting a good idea. This phase will be pretty slow and it’s just to give me an idea of how things will be like. I also can’t do too much because my school’s finals are approaching so I gotta LOCK IN on those. I’ll just be reading the guides on the bus or something (Lies, I’ll be sleeping on the bus). </p>
-<h2 id="Complete"><a href="#Complete" class="headerlink" title="Complete:"></a>Complete:</h2><ol>
-<li>Finish reading the LFS guide.</li>
-<li>Look over relevent areas of BLFS (way too long and a lot of it is KDE or GNOME).</li>
-<li>Ask around the discord and other communities for common issues</li>
-<li>Finish eSSD partition setup and get environment ready.</li>
-</ol>
-<h1 id="Phase-2-Simple-Linux-CLI-Setup-Sysvinit"><a href="#Phase-2-Simple-Linux-CLI-Setup-Sysvinit" class="headerlink" title="Phase 2 - Simple Linux CLI Setup (Sysvinit)"></a>Phase 2 - Simple Linux CLI Setup (Sysvinit)</h1><p>2026-05-25: In this phase, I’ll just be following the LFS and complete my build of a very minimal linux setup. This setup will be using Sysvinit although in later phases, we will change that over to OpenRC. I’ll add more content to this once I start with the date stamp.</p>
-<h2 id="Complete-1"><a href="#Complete-1" class="headerlink" title="Complete:"></a>Complete:</h2><ol>
-<li>Use the LFS guide to configure simple CLI Linux base setup.</li>
-</ol>
-<h1 id="Phase-3-Simple-BLFS"><a href="#Phase-3-Simple-BLFS" class="headerlink" title="Phase 3 - Simple BLFS"></a>Phase 3 - Simple BLFS</h1><p>2026-05-25: So in this one we just add a couple base apps along with SwayWM. Again, I really don’t have a good idea of what I’ll be doing in this step so yeah… I’ll be adding to this section though. </p>
-<h2 id="Complete-2"><a href="#Complete-2" class="headerlink" title="Complete:"></a>Complete:</h2><ol>
-<li>Make Simple GUI</li>
-<li>Simple tools (i.e. gef, nvim, ghidra)</li>
-</ol>
-<h1 id="Phase-4-RICE-FIELDS"><a href="#Phase-4-RICE-FIELDS" class="headerlink" title="Phase 4 - RICE FIELDS"></a>Phase 4 - RICE FIELDS</h1><p>2026-05-25: In this step, I’ll be making it look all pretty and stuff. A lot of the configs are already in my other setups so I’ll just copy it over and maybe using CSS to do some custom stuff. I’ll try not to go overboard. This is supposed to be a simple distro.</p>
-<h2 id="Complete-3"><a href="#Complete-3" class="headerlink" title="Complete:"></a>Complete:</h2><ol>
-<li>Riced applications and desktop environment</li>
-<li>Custom keybinds</li>
-</ol>
+    <title>Post Competition Thoughts</title>
+    <url>/hamman-tech/Competitions/CTF/KalmarCTF/Post_Competition_Thoughts/</url>
+    <content><![CDATA[<h1 id="Hmmmmmmm…"><a href="#Hmmmmmmm…" class="headerlink" title="Hmmmmmmm…."></a>Hmmmmmmm….</h1><p>Ok so I’m actually writing this a couple of months after the competition and all I can say is that I didn’t walk into the competition very confident and I finished learning stuff.</p>
+<p>I knew that KalmarCTF was going to be extremely hard and this is the competition I decided to do right after PicoCTF(which is a high school competition). I pretty much <em>only</em> joined to experience something extremely hard. Safe to say I absolutely experienced that. </p>
+<p>I was also traveling abroad and didn’t have a lot of time to focus on the competition, so that’s another lousy excuse for you.</p>
+<p>Point is, I learned some things about CPU flags and some specific registers that I didn’t previously know. Also, seeing the AstralOS also made me realize that hobby operating systems were possible. Nothing happened in this one, but I’ll still keep it around in this blog just to reminisce at and maybe eventually I’ll be good enough to actually get a placement in this CTF competition.</p>
 ]]></content>
       <categories>
-        <category>Projects</category>
-        <category>HobbyOS</category>
+        <category>Competitions</category>
+        <category>CTF</category>
+        <category>KalmarCTF</category>
       </categories>
       <tags>
-        <tag>linux</tag>
-        <tag>lfs</tag>
-        <tag>project</tag>
-        <tag>hobbyos</tag>
-        <tag>planning</tag>
-        <tag>distro</tag>
+        <tag>thoughts</tag>
+        <tag>competition</tag>
+        <tag>ctf</tag>
+        <tag>kalmarctf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Brainstorming_Day</title>
+    <url>/hamman-tech/Competitions/Hackathon/6th_Hackathon_Taiwan/Brainstorming_Day/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Competition</category>
+        <category>Hackathon</category>
+      </categories>
+      <tags>
+        <tag>competition</tag>
+        <tag>hackathon</tag>
+        <tag>sixth_taiwan_hackathon_junior</tag>
       </tags>
   </entry>
   <entry>
